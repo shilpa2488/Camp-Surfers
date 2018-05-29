@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(https://1.bp.blogspot.com/-UQua557NFCM/WCY_MLrZw1I/AAAAAAAAA8Y/m0bj9gXiSEQ9aoF6cLo0yEgJn2u_edctgCLcB/w1200-h630-p-k-no-nu/night-camping-under-stars-loveoboi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginbox {
+    width: 300px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+.signupbox {
+    width: 400px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+.form1 {
+ margin: 25px auto;
+ width: 90%;
+}
+
+.form1 {
+ border: 3px solid #f1f1f1;
+}
+

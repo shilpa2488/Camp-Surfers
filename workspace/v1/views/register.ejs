@@ -1,0 +1,29 @@
+<body><% include ./partials/header %>
+<div class="signupbox">
+   	<h1 style="text-align: center;">Sign Up Here</h1>
+    <form action="/register" method="POST" align="center">
+            <p>First Name</p>
+              <input type="text" name="firstname" style="color: black" placeholder="Enter First Name" >
+            <p>Last Name</p>
+            
+                <input type="text" name="lastname" style="color: black" placeholder="Enter Last Name">
+            
+            <p>Username</p>
+              <input type="text" name="username" style="color: black" placeholder="Enter Username" >
+            <p>Password</p>
+            
+                <input type="password" name="password" style="color: black" placeholder="Enter Password">
+                <p>Email</p>
+            
+                <input type="email" name="email" style="color: black" placeholder="Enter Email"><br><br>
+ 
+                <h4"></h4><input type="submit" value="Login" style="color:black"></h4><br>
+                <a href="/login">Already have an account ?</a>
+            
+        </form>
+   </div>
+
+    <script src="js/index.js"></script>
+
+<% include ./partials/footer %> 
+</body>
